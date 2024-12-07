@@ -13,22 +13,6 @@ One of the largest components of this experience is **the shopping cart**.
 
 In this lab, we will be building the **IronCart**, a shopping cart for the unofficial  merchandising store. Visitors should be able to add and remove products from the shopping cart, as well as to modify the number (quantity) of items that they want to purchase. Additionally, users should be able to see the subtotal and total price for the items they have added.
 
-## Requirements
-
-- Fork this repo
-- Clone this repo
-
-## Submission
-
-- Upon completion, run the following commands:
-
-```bash
-$ git add .
-$ git commit -m "done"
-$ git push origin master
-```
-
-- Create Pull Request so your TAs can check up your work.
 
 ## Instructions
 
