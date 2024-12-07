@@ -1,6 +1,5 @@
-![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
 
-# LAB | Ironhack Cart
+# LAB |  Cart
 
 ![shopping cart](https://i.imgur.com/s2Qxc9Z.jpg)
 
@@ -12,7 +11,7 @@ E-commerce is, however, a highly competitive business, and building a positive u
 
 One of the largest components of this experience is **the shopping cart**.
 
-In this lab, we will be building the **IronCart**, a shopping cart for the unofficial Ironhack merchandising store. Visitors should be able to add and remove products from the shopping cart, as well as to modify the number (quantity) of items that they want to purchase. Additionally, users should be able to see the subtotal and total price for the items they have added.
+In this lab, we will be building the **IronCart**, a shopping cart for the unofficial  merchandising store. Visitors should be able to add and remove products from the shopping cart, as well as to modify the number (quantity) of items that they want to purchase. Additionally, users should be able to see the subtotal and total price for the items they have added.
 
 ## Requirements
 
@@ -70,7 +69,7 @@ The one product we currently have in our `#cart` is placed in the `tr` with the 
 ```html
 <tr class="product">
   <td class="name">
-    <span>Ironhack Rubber Duck</span>
+    <span> Rubber Duck</span>
   </td>
   <td class="price">$<span>25.00</span></td>
   <td class="quantity">
@@ -135,7 +134,7 @@ function updateSubtotal(product) {
 
 - **Step 2**: Now, when you got the above mentioned DOM elements, your next step should be extracting the specific values from them. _Hint_: maybe `innerHTML` rings the bell? In case you are curious to find other ways to achieve the same result, you can start with checking [`textContent`](https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent) and [`innerText`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/innerText) on Google. However, don't get distracted here, let this be your _additional reading_ when you complete the lab.
 
-- **Step 3**: Use the values you extracted from the above mentioned DOM elements to calculate the subtotal price. You can create a new variable, and its value will be equal to the product of these values. Ex. If a user picked 3 Ironhack Rubber Ducks, they should see that the subtotal is 75 dollars ($25 * 3 = $75).
+- **Step 3**: Use the values you extracted from the above mentioned DOM elements to calculate the subtotal price. You can create a new variable, and its value will be equal to the product of these values. Ex. If a user picked 3  Rubber Ducks, they should see that the subtotal is 75 dollars ($25 * 3 = $75).
 
 - **Step 4**: Now, when you are becoming DOM manipulation ninja, use your skills once again to get the DOM element that should hold the subtotal. _Hint_: it is the element with the class `subtotal`.
 
